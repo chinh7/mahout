@@ -40,11 +40,11 @@ public final class EntityEntityWritable implements WritableComparable<EntityEnti
     this.bID = bID;
   }
   
-  long getAID() {
+  public long getAID() {
     return aID;
   }
   
-  long getBID() {
+  public long getBID() {
     return bID;
   }
 
